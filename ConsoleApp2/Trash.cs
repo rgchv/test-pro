@@ -8,5 +8,9 @@ public class Trash
     {
         _objects.Add(item);
     }
-    
+
+    public void ClearTrash()
+    {
+        _objects = new List<object>();
+    }
 }
